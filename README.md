@@ -13,8 +13,8 @@ Gemstones is dark, but does not have too extreme contrasts so it doesn't hurt yo
 ##Screenshots
 
 ### HTML
-[![HTML](https://raw.githubusercontent.com/mynimi/gemstones-brackets-theme/master/screenshots/html.png)](https://raw.githubusercontent.com/mynimi/gemstones-brackets-theme/master/screenshots/html.png)
+[![HTML](https://raw.githubusercontent.com/mynimi/gemstones-brackets-theme/master/screenshots/html.png)](https://github.com/mynimi/gemstones-brackets-theme/blob/master/screenshots/html.png)
 ### SCSS
-[![SCSS](https://raw.githubusercontent.com/mynimi/gemstones-brackets-theme/master/screenshots/scss.png)](https://raw.githubusercontent.com/mynimi/gemstones-brackets-theme/master/screenshots/scss.png)
+[![SCSS](https://raw.githubusercontent.com/mynimi/gemstones-brackets-theme/master/screenshots/scss.png)](https://github.com/mynimi/gemstones-brackets-theme/blob/master/screenshots/scss.png)
 ### JavaScript
-[![JS](https://raw.githubusercontent.com/mynimi/gemstones-brackets-theme/master/screenshots/js.png)](https://raw.githubusercontent.com/mynimi/gemstones-brackets-theme/master/screenshots/js.png)
+[![JS](https://raw.githubusercontent.com/mynimi/gemstones-brackets-theme/master/screenshots/js.png)](https://github.com/mynimi/gemstones-brackets-theme/blob/master/screenshots/js.png)
