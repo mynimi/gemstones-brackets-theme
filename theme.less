@@ -1,0 +1,237 @@
+// COLOR PALETTE
+@background: #02050f;
+@foreground: #88B7B1;
+
+@rose: #F7ECE8;
+@aqua1: #6C948C;
+@aqua2: #8DA7A1;
+@mauvy: #A1625F;
+
+@grey1: #5d5d5d;
+@grey2: #777788;
+@grey3: #DDD;
+/* ACCENTS */
+
+@accent1: #bf1b6d;
+@accent2: #858FB2;
+/*
+
+********************************************
+********************************************
+
+*/
+
+// STYLING
+.CodeMirror,
+.CodeMirror-scroll {
+    background-color: @background;
+    color: @grey3;
+}
+
+.CodeMirror-focused .CodeMirror-activeline-background {
+    background: rgba(255, 255, 255, .08);
+}
+
+.show-line-padding .CodeMirror-focused .CodeMirror-activeline-background {
+    box-shadow: inset 30px 0 0 0 #fff;
+}
+
+.CodeMirror-focused .CodeMirror-activeline {
+    .CodeMirror-gutter-elt {
+        background: rgba(0, 0, 0, 0.2);
+        background: @aqua1;
+        color: @rose;
+    }
+    .inline-widget .CodeMirror-gutter-elt {
+        color: @grey1;
+    }
+}
+
+.cm-atom,
+.cm-string,
+.cm-string-2,
+.cm-hr {
+    color: @aqua2;
+}
+
+.cm-attribute,
+.cm-plus {
+    color: @accent2;
+}
+
+.cm-number {
+    color: @accent1;
+}
+
+.cm-def,
+.cm-property {
+    color: @accent2;
+}
+
+.cm-variable,
+.cm-operator,
+.cm-meta,
+.cm-bracket {
+    color: @grey2;
+}
+
+.cm-variable-2 {
+    color: @grey3;
+}
+
+.cm-variable-3 {
+    color: @accent1;
+}
+
+// VARIABLE COLORS FOR PHP
+.cm-m-clike.cm-variable {
+    color: @grey3;
+}
+
+.cm-m-clike.cm-variable-2 {
+    color: @accent2;
+}
+
+.cm-m-clike.cm-operator {
+    color: @grey2;
+}
+
+.cm-comment {
+    color: @grey1;
+}
+
+.cm-error,
+.cm-minus {
+    color: @accent1;
+}
+
+.cm-header {
+    color: #DBAB80;
+}
+
+.cm-link {
+    color: #b77fdb;
+    text-decoration: none;
+}
+
+.cm-rangeinfo {
+    color: #6c71c4;
+}
+
+.cm-keyword,
+.cm-qualifier,
+.cm-builtin,
+.cm-tag,
+.cm-quote {
+    color: @mauvy;
+}
+
+// EXTRA CSS 
+.CodeMirror-searching {
+    background-color: #A3847A;
+    &.searching-current-match {
+        background-color: @mauvy;
+    }
+}
+
+.CodeMirror-cursor {
+    border-left: 3px solid @aqua1 !important;
+}
+
+.CodeMirror-gutters {
+    background-color: rgba(255, 255, 255, .08);
+    border-right: 1px solid @aqua1;
+}
+
+.CodeMirror-linenumber {
+    color: @grey2;
+}
+
+.CodeMirror .CodeMirror-selected {
+    background: @rose;
+}
+
+.CodeMirror-focused .CodeMirror-selected {
+    background: rgba(255, 255, 255, .2);
+}
+
+.CodeMirror-matchingbracket,
+.CodeMirror-matchingtag {
+    background-color: transparent;
+    border-bottom: 2px solid @accent1;
+}
+
+.CodeMirror-matchingbracket {
+    color: white !important;
+}
+
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-left: 1px solid #fff !important;
+    border-bottom: 1px solid #fff;
+}
+
+.CodeMirror {
+    .CodeMirror {
+        background: transparent;
+    }
+    .CodeMirror .CodeMirror-gutters {
+        background: transparent;
+        border-right: none;
+    }
+    .CodeMirror .CodeMirror-activeline-background {
+        background: transparent;
+    }
+    .CodeMirror .CodeMirror-activeline .CodeMirror-gutter-elt {
+        background: transparent;
+        color: @grey1;
+    }
+    .CodeMirror-focused .CodeMirror-activeline-background {
+        background: @mauvy;
+    }
+    .CodeMirror-focused .CodeMirror-activeline {
+        .CodeMirror-gutter-elt {
+            background: rgba(0, 0, 0, 0.2);
+            color: @grey3;
+        }
+    }
+}
+
+.CodeMirror-foldgutter-open:after {
+    color: @mauvy;
+}
+
+.CodeMirror-foldgutter-folded:after {
+    color: @accent1;
+}
+
+.CodeMirror.over-gutter,
+.CodeMirror-activeline {
+    .CodeMirror-foldgutter-open:after {
+        color: @rose;
+    }
+}
+
+.CodeMirror-foldmarker {
+    border-color: @foreground;
+    color: @grey2;
+    background-color: @background;
+    padding: 0 5px;
+}
+
+// NON-EDITOR STYLING
+.image-view,
+.not-editor {
+    background-color: @background;
+}
+
+.view-pane .image-view {
+    color: @grey2;
+}
+
+.quick-view-highlight {
+    background: @aqua1;
+}
+
+.CodeMirror-lines {
+    padding-left: 3px;
+}

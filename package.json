@@ -1,0 +1,15 @@
+{
+    "name": "mynimi.gemstones-theme",
+    "title": "Gemstones Theme",
+    "description": "Dark Theme with calm, cool-toned colors, that don't hurt your eyes.",
+    "homepage": "https://github.com/mynimi/gemstones-brackets-theme",
+    "version": "1.0.0",
+    "author": "Myriam <myriame@halfapx.com> (http://halfapx.com)",
+    "license": "MIT",
+    "theme": {
+        "file": "theme.less",
+        "dark": true,
+        "addModeClass": true
+    },
+    "keywords": ["theme", "dark", "highlighting", "syntax", "calm", "cool"]
+}
